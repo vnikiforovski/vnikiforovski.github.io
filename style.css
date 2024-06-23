@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, SansSerif;
+    margin: 0;
+    padding: 0;
+}
+
+.c{
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #f2f2f2;
+    color: #222831;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+    margin-left: 220px;
+}
+
+#pocetok{
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f2f2f2;
+    margin: auto;
+    padding: 310px 0;
+}
+
+#pocetok span{
+    color: black;
+}
+
+#pocetok h1{
+    font-size: 50px;
+}
+
+#pocetok button{
+    height: auto;
+    width: auto;
+    background: none;
+    border-color: white;
+}
+#pocetok button a{
+    content: "\2193";
+    font-size: 35px;
+    color: white;
+}
+
+nav {
+    float: right;
+    padding-top: 30px;
+    margin-right: 225px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #222831;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #f96d00;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.bio-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.bio-container img{
+    border-radius: 10px;
+    margin: 0 20px;
+    margin-top: 30px;
+    width: 270px;
+    height: 180px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.delovi {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.del {
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 0;
+    text-align: center;
+    width: 25%;
+    height: 300px;
+}
+
+.del img {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.del h3 {
+    margin-top: 0;
+}
+
+.dark{
+    background-color: #393e46;
+    color: white;
+    margin-bottom: -10px;
+}
+.cards{
+    font-size: 20px;
+    text-align: start;
+}
+
+.or{
+    background-color: #f96d00;
+    color: white;
+}
+
+#licni li{
+    font-size: 17px;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+.f input, .f textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.f button {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #393e46;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.f button:hover {
+    background-color: #4d5254;
+}
+#kont p{
+    text-align: center;
+}
+#bel{
+    background-color: #f2f2f2;
+}
